@@ -11,11 +11,13 @@
     margin: 0;
     padding: 0;
     color: var(--base);
+    flex-wrap: wrap;
 }
 
 body{
     background-color: var(--bg);
     font-family: 'roboto', sans-serif;
+    
 }
 
 header{
@@ -67,64 +69,50 @@ a{
     text-decoration: none;
 }
 
-#cabecalho{
-    position: relative;
-    height: 20rem;
-    display: flex;
-}
-
-#cabecalho::before{
-    position: absolute;
-    content: "";
-    height: 90%;
-    width: 100%;
-    background: url(../assets/images/luca.jpg) center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position-y: 35%;
-    filter: opacity(.3);
-    z-index:-1;
-    box-shadow: inset 0px -125px 120px var(--bg);
-}
-
-#cabecalho .titulo {
-    width: 60%;
-    padding: 1rem 4rem;
-    font-weight: bold;
-    font-size: 3rem;
+.sobre{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 1rem 6rem;
+    font-size: 2rem;
     text-shadow: .25rem .25rem .25rem rgba(0, 0, 0, 0.25);
-}
-
-#cabecalho .sinopse {
-    width: 66%;
-    padding: 2rem 4rem;
-    font-size: 1.5rem;
-    text-shadow: .25rem .25rem .25rem rgba(0, 0, 0, 0.25);
-}
-
-.poster{
-    width: 190px;
-    border-radius: 5px;
-    margin: 1rem 0 3rem 5rem;
-}
-
-.botoes{
-    background-color: var(--primary);
-    border-radius: 5px;
-    width: 100%;
     text-align: center;
-    padding: 0.5rem 3rem;
-    transition: filter .2s ease-in-out;
 }
 
-.botoes:first-child{
+div h2{
+    font-size: 3rem;
+    border-left: var(--primary) solid 6px;
+    line-height: 39px;
+    padding-left: .2rem;
+    margin-bottom: 1rem;
     margin-left: 4rem;
 }
 
-.botoes:hover{
-    filter: drop-shadow(0px 0px 4px var(--primary))
-            drop-shadow(0px 0px 9px var(--primary));
+.dif{
+    color: var(--primary);
 }
+
+.rodape{
+    text-align: center;
+    font-size: .8rem;
+    
+    position: absolute;
+    bottom: 1.5%;
+    left: 0;
+    right: 0;
+    
+
+    
+    
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -145,13 +133,13 @@ a{
     }
 
     header h1 a{
-        margin-left: 2rem;
+        margin-left: 1.8rem;
     }
 
-    #cabecalho .sinopse {
-        width: 66%;
-        padding: 2rem 4rem;
-        font-size: 1rem;
-        text-shadow: .25rem .25rem .25rem rgba(0, 0, 0, 0.25);
+    .sobre{
+        font-size: 1.5rem;
+        width: 70%
     }
+
+    
 }
