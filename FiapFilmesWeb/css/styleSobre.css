@@ -72,7 +72,7 @@ a{
 .sobre{
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 46%;
     padding: 1rem 6rem;
     font-size: 2rem;
     text-shadow: .25rem .25rem .25rem rgba(0, 0, 0, 0.25);
@@ -106,7 +106,12 @@ div h2{
     display: flex;
     justify-content: space-evenly;
     margin: 6rem 3rem 1.5rem 3rem;
+}
 
+.team img{
+    width: 106px;
+    height: 116px;
+    border-radius: 100%;
 }
 
 .retangulo{
@@ -117,24 +122,20 @@ div h2{
     flex-direction: column;
     align-items: center;
     text-align: center;
-
 }
 
 .integrantes{
     position: absolute;
     bottom: 30%;
-
 }
 
 .follow{
     color: #fff;
     text-align: center;
-
 }
 
 .follow p{
     font-size: 1.3rem;
-
 }
 
 .follow span{
