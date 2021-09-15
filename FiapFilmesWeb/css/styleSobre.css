@@ -95,18 +95,52 @@ div h2{
 .rodape{
     text-align: center;
     font-size: .8rem;
-    
     position: absolute;
     bottom: 1.5%;
     left: 0;
     right: 0;
     
+}
 
-    
-    
+.team{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 6rem 3rem 1.5rem 3rem;
 
 }
 
+.retangulo{
+    width: 166px;
+    height: 176px;
+    background: var(--bg2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.integrantes{
+    position: absolute;
+    bottom: 30%;
+
+}
+
+.follow{
+    color: #fff;
+    text-align: center;
+
+}
+
+.follow p{
+    font-size: 1.3rem;
+
+}
+
+.follow span{
+    font-size: 2rem;
+    margin: 0.6rem;
+}
 
 
 
@@ -139,6 +173,11 @@ div h2{
     .sobre{
         font-size: 1.5rem;
         width: 70%
+    }
+
+    .follow span{
+        font-size: 1.5rem;
+        margin: 0.5rem;
     }
 
     
